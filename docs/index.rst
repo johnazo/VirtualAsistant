@@ -16,24 +16,23 @@ Este asistente virtual reconoce 6 comandos de voz y los ejecuta:
    #. Redacta correo electrónico"
    #. Tómame una foto"
 
+Puede comenzar por nuestro :doc:`manual de usuario </user/introduction>` o saltar al :doc:`manual técnico </technical/introduction>`.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :hidden:
    :caption: Documentación de usuario:
 
+   user/introduction
    user/commands
-   user/command_youtube
-   user/command_time
-   user/command_wikipedia
-   user/command_google
-   user/command_email
-   user/command_picture
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Documentación técnica:
 
+   technical/introduction
+   technical/requirements
+   technical/installation
+   technical/configuration
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
