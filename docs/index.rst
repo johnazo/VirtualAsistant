@@ -32,6 +32,7 @@ Puede comenzar por nuestro :doc:`manual de usuario </user/introduction>` o salta
    :caption: Documentación técnica:
 
    technical/introduction
+   technical/development
    technical/requirements
    technical/installation
    technical/configuration
