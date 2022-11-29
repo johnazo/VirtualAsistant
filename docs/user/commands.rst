@@ -12,11 +12,13 @@ Este comando abre la página de YouTube buscando el video que se ha especificado
 
 Para ejecutarlo, debe decir ``Sofia, pon en YoutTube <Palabras Clave>`` y en seguida las plabras clave con las que se quiere obtener resultados.
 
-.. note::
+Ejemplo:
 
-    Ejemplo:
-    ``Sofia, pon en YouTube Carlos Vives Cumbiana``
-    .. image:: /user/img/YouTubeCommand.png
+.. code::
+
+    Sofia, pon en YouTube Carlos Vives Cumbiana
+
+.. image:: /user/img/YouTubeCommand.png
 
 
 .. _DateTimeCommand:
@@ -28,11 +30,13 @@ Este comando responde con la hora actual. Toma la hora del computador y la devue
 
 Para ejecutarlo, debe decir ``Sofia, qué hora es``.
 
-.. note::
+Ejemplo:
 
-    Ejemplo:
-    ``Sofia, qué hora es``
-    .. image:: /user/img/YouTubeCommand.png
+.. code::
+
+    Sofia, qué hora es
+
+.. image:: /user/img/DateTimeCommand.png
 
 
 .. _WikipediaCommand:
@@ -44,11 +48,13 @@ Este comando abre la página de Wikipedia con el resultado de la búsqueda, seg�
 
 Para ejecutarlo, debe decir ``Sofia, busca en Wikipedia <Palabras Clave>`` y en seguida las plabras clave con las que se quiere obtener resultados.
 
-.. note::
+Ejemplo:
 
-    Ejemplo:
-    ``SofSofia, busca en Wikipedia Bastardos Sin Gloria``
-    .. image:: /user/img/WikipediaCommand.png
+.. code::
+
+    Sofia, busca en Wikipedia Bastardos Sin Gloria
+
+.. image:: /user/img/WikipediaCommand.png
 
 
 .. _GoogleCommand:
@@ -61,17 +67,19 @@ Si no ha incluido ningún parámetro de búsqueda, el asistente simpelmente abre
 
 Para ejecutarlo, debe decir ``Sofia, abre Google [Palabras Clave]`` y en seguida las plabras clave con las que se quiere obtener resultados.
 
-.. note::
+Ejemplo 1:
 
-    Ejemplo:
-    ``Sofia, abre Google``
-    .. image:: /user/img/GoogleCommand1.png
+.. code::
 
-.. note::
+    Sofia, abre Google
 
-    Ejemplo:
-    ``Sofia, abre Google Trainspotting``
-    .. image:: /user/img/GoogleCommand2.png
+Ejemplo 2:
+
+.. code::
+
+    Sofia, abre Google Trainspotting
+
+.. image:: /user/img/GoogleCommand.png
 
 
 .. _EMailCommand:
@@ -84,11 +92,13 @@ Los parámetros para incluir son **Dirección destino**, **Asunto** y **Mensaje*
 
 Para ejecutarlo, debe decir ``Sofia, redacta correo electrónico a <Dirección Destino> con asunto <Asunto> y mensaje <Mensaje>``.
 
-.. note::
+Ejemplo:
 
-    Ejemplo:
-    ``Sofia, redacta correo electrónico a john.cruz@ustadistancia.edu.co con asunto prueba de correo y mensaje probando el asistente virtual para redacción de correo electrónico``
-    .. image:: /user/img/EMailCommand.png
+.. code::
+
+    Sofia, redacta correo electrónico a john.cruz@ustadistancia.edu.co con asunto prueba de correo y mensaje probando el asistente virtual para redacción de correo electrónico
+
+.. image:: /user/img/EMailCommand.png
 
 
 .. _PictureCommand:
@@ -96,18 +106,20 @@ Para ejecutarlo, debe decir ``Sofia, redacta correo electrónico a <Dirección D
 Comando para tomar una foto
 ===========================
 
-Este comando accede a la cámara web que el equipo debe tener conectada y toma una foto.
+Este comando accede a la cámara web que el equipo debe tener conectada, toma una foto y la guarda en la misma carpeta donde reside el programa bajo el nombre `picture.png`
 
 .. danger::
     El asistente usará la primera cámara que encuentre conectada al equipo. En caso de no existir cámara, arrojará un error descriptivo.
 
 Para ejecutarlo, debe decir ``Sofia, tómame una foto``.
 
-.. note::
+Ejemplo:
 
-    Ejemplo:
-    ``Sofia, tómame una foto``
-    .. image:: /user/img/YouTubeCommand.png
+.. code::
+
+    Sofia, tómame una foto
+
+.. image:: /user/img/YouTubeCommand.png
 
 
 .. _HelpCommand:
@@ -119,11 +131,13 @@ Este comando responderá con una ayuda general de los comandos que tiene program
 
 Para ejecutarlo, debe decir ``Sofia, ayuda``.
 
-.. note::
+Ejemplo:
 
-    Ejemplo:
-    ``Sofia, ayuda``
-    .. image:: /user/img/HelpCommand.png
+.. code::
+
+    Sofia, ayuda
+
+.. image:: /user/img/HelpCommand.png
 
 
 .. _ShutdownCommand:
@@ -135,8 +149,10 @@ Este comando terminará el programa del asistente virtual.
 
 Para ejecutarlo, debe decir ``Sofia, apagar``.
 
-.. note::
+Ejemplo:
 
-    Ejemplo:
-    ``Sofia, apagar``
-    .. image:: /user/img/ShutdownCommand.png
+.. code::
+
+    Sofia, apagar
+
+.. image:: /user/img/ShutdownCommand.png

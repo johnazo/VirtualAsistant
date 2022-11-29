@@ -1,5 +1,4 @@
 import speech_recognition as sr
-from gtts import gTTS
 import pyttsx3
 import os
 from virtual_asistant_utils import *
@@ -7,9 +6,10 @@ from virtual_asistant_utils import *
 
 class VirtualAssistant:
 
-    running: bool = False
     name: str = "Sofía"
     language: str = "es-CO"
+
+    running: bool = False
     r = sr.Recognizer()
     speaker = pyttsx3.init()
 

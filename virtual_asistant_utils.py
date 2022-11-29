@@ -85,7 +85,7 @@ class MailHelper:
         if parsed_command is None:
             return None
         mail_address = parsed_command[0].replace(
-            " arroba ", "@").replace(" ", "")
+            " arroba ", "@").replace("punto", ".").replace(" ", "")
         mail_link = "mailto:{}?subject={}&body={}".format(
             mail_address, parsed_command[1], parsed_command[2])
         webbrowser.open(mail_link, new=0, autoraise=True)
@@ -96,7 +96,8 @@ class PictureHelper:
     format_string = "Tómame una foto"
     camera_port = 0
 
-    def execute(self, command):
+    def execute(self, command, port=0):
+        camera_port = port
         camera = cv.VideoCapture(self.camera_port)
         result, image = camera.read()
 
