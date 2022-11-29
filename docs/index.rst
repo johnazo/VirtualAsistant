@@ -19,7 +19,7 @@ Este asistente virtual reconoce 6 comandos de voz y los ejecuta:
 Puede comenzar por nuestro :doc:`manual de usuario </user/introduction>` o saltar al :doc:`manual técnico </technical/introduction>`.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
    :caption: Documentación de usuario:
 
@@ -27,7 +27,7 @@ Puede comenzar por nuestro :doc:`manual de usuario </user/introduction>` o salta
    user/commands
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :hidden:
    :caption: Documentación técnica:
 
